@@ -17,7 +17,7 @@ img {
     max-width: 100%;
 }
 
-h1, h2, p, button {
+h1, h2, p, a, button {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -34,7 +34,9 @@ h1, h2, p, button {
 }
 
 .navigation {
-
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .navigation a {
@@ -46,11 +48,13 @@ h1, h2, p, button {
 }
 
 .mainContent {
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .mainContent__leftSide {
-
+    max-width: 604px;
 }
 
 .mainContent__leftSide h2 {
@@ -74,11 +78,14 @@ h1, h2, p, button {
     line-height: 160%;
     opacity: 0.7;
     margin-bottom: 50px;
+    max-width: 550px;
 
 }
 
 .mainContent__leftSide-btnList {
-
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .mainContent__leftSide-btnList button {
@@ -89,13 +96,18 @@ h1, h2, p, button {
     font-weight: 600;
     border: none;
     cursor: pointer;
+}
 
+.btn__play {
+    display: flex;
+    gap: 10px;
 }
 
 .footer {
     margin-bottom: 100px;
 }
 
-.logo {
-
+.logos {
+    display: flex;
+    justify-content: space-between;
 }
